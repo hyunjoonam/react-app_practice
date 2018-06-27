@@ -1,0 +1,29 @@
+{
+  "name": "react-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "browserify public/myscript.js -o public/compile.js -t [ babelify --presets [ babel-preset-react babel-preset-es2015 ] ]"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "express-generator": "^4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
